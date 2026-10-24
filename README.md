@@ -1,26 +1,18 @@
 # mia-your-girlfriend
 
-A choice-driven terminal chat story starring Mia. Reply through five scenes, watch the relationship fall apart, and reach a one-way season finale with an angry breakup, a blocked-chat screen, and a cascading error log.
+Meet Mia, your cute terminal girlfriend. Chat with her, choose your replies, and see where your story goes.
 
-Mia's terminal portrait is an original symbol illustration with pale hair, a dark bow, blue eyes, and heart accessories.
+## Start chatting
 
-## Run from the source folder
-
-Requires Python 3.10 or newer. No runtime packages are needed.
-
-Run with: python .\season.py --color
-
-Choose a reply by entering its number. Use --fast to skip pauses or --no-color to disable ANSI colors.
-
-## Install the command
+Requires Python 3.10 or newer.
 
 From the project folder, run:
 
     python -m pip install -e .
     mia-your-girlfriend --color
 
-You can also run the package with python -m mia_your_girlfriend --color.
+Or start it directly with:
 
-## Permanent block
+    python .\season.py --color
 
-After Season 01 ends, the game saves a closed-state marker in the current Windows user's Local AppData. Future launches refuse to start another season, even after moving or reinstalling the project. The marker is intentionally excluded from Git so each new user can play the story once.
+Use --fast to skip pauses or --no-color to turn off terminal colors.
