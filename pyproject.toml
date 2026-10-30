@@ -1,20 +1,7 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=59"]
 build-backend = "setuptools.build_meta"
 
-[project]
-name = "mia-your-girlfriend"
-version = "1.0.0"
-description = "A chat-style terminal romance with a one-way season finale."
-readme = "README.md"
-requires-python = ">=3.10"
-dependencies = []
-
-[project.scripts]
-mia-your-girlfriend = "mia_your_girlfriend:main"
-
 [tool.setuptools]
-packages = ["mia_your_girlfriend"]
+packages = ["mia_your_girlfriend", "mia_your_girlfriend.tui"]
 
-[tool.setuptools.package-data]
-mia_your_girlfriend = ["mia_portrait.ans"]
