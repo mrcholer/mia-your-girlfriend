@@ -46,3 +46,5 @@ The season has a single finale. Once it ends, Mia blocks this chat permanently â
 ## Requirements
 
 No external dependencies. Runs on Linux terminals (and most modern terminals). Colors are disabled automatically when `NO_COLOR` is set or the terminal doesn't support them.
+
+_Last updated: 2026-11-03_
